@@ -15,7 +15,7 @@ using namespace std;
 
 class Relocation {
 public:
-  virtual void pack_data_to() { }
+  virtual void pack_data_to() {  }
 };
 
 class DataRelocation : public Relocation {
